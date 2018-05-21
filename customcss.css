@@ -7,8 +7,12 @@
   background-color: white;
 }
 
+.black {
+  background-color: #191919;
+}
+
 .background {
-  background-image: url("background2.png") !important;
+  background-color: #323232 !important;
 }
 
 .parallaxtext {
@@ -32,7 +36,16 @@
     background-size: cover;
 }
 .parallax2{
-   
+    background-image: url("background.png");
+    height: 50rem; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3{
+    background-color: #323232;
     height: 50rem; 
     background-attachment: fixed;
     background-position: center;
